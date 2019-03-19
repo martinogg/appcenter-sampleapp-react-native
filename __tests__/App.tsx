@@ -7,3 +7,4 @@ jest.mock('appcenter-crashes', () => 'AppCenterCrashes');
 it('renders correctly', () => {
   const tree = renderer.create(<App />);
 });
+
